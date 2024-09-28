@@ -12,7 +12,7 @@ CREATE TABLE authors(
 
 CREATE TABLE books(
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	isbn VARCHAR(13),
+	isbn CHAR(13),
 	title VARCHAR(100) NOT NULL,
 	author_id INT,
 	FOREIGN KEY(author_id) REFERENCES authors(id)
