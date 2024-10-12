@@ -57,6 +57,9 @@ DROP FOREIGN KEY fk_member;
 DELETE FROM members
 WHERE id = 20;
 
+DELETE FROM members
+WHERE id = 21;
+
 -- option
 
 DESCRIBE members;
